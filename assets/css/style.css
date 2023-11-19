@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lato:wght@300;400;700;900&display=swap");
+:root {
+  --primary: #ff4c1a;
+  --secondary: #131922;
+  --white: #ffffff;
+  --gery-1: #5f6165;
+  --gery-2: #888888;
+  --gery-3: #a2a6ad;
+  --yellow: #ffa818;
+}
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+}
+html {
+  background: black;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+h1 {
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 31px;
+}
+h4 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 21px;
+}
+p {
+  font-size: 16px;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+}
+a {
+  color: initial;
+}
+a:hover {
+  color: var(--primary);
+}
+a:active {
+  color: var(--primary);
+}
+/* buttons */
+.nav-btn-group {
+  border-radius: 5px;
+  background: rgba(217, 217, 217, 0.47);
+}
+.btn-outline-primary {
+  border: 2px solid var(--white);
+  border-radius: 5px;
+}
+
+/* Header */
+.header {
+  margin-bottom: -123px;
+  z-index: 100;
+  position: relative;
+  margin-top: 15px;
+}
+.header .nav-btn-group .btn {
+  color: var(--white);
+}
+.navbar {
+  border-radius: 0px 5px 5px 0px;
+  background: rgba(217, 217, 217, 0.27);
+  mix-blend-mode: color-dodge;
+  --bs-navbar-padding-y: 0rem;
+}
+
+.nav-link {
+  color: var(--white);
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+/* hero */
+.hero {
+  background: linear-gradient(
+      0deg,
+      rgba(27, 20, 100, 0.7),
+      rgba(27, 20, 100, 0.7)
+    ),
+    url("../image/hero-bg.jpg") center center no-repeat;
+  background-size: cover;
+  padding-top: 220px;
+  padding-bottom: 95px;
+  position: relative;
+}
+
+.hero-form {
+  border-radius: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(245, 244, 255, 0.17);
+  padding: 20px 0;
+}
+.hero-form .form-control {
+  border-radius: 13px;
+  border: 1px solid #fff;
+
+  border: 1px solid rgba(255, 255, 255, 0.6);
+
+  background: rgba(245, 244, 255, 0.17);
+}
+.hero-form .row {
+  margin: 0 10px;
+}
