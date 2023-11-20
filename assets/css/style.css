@@ -93,7 +93,13 @@ a:active {
   color: #fff;
   font-size: 15px;
 }
-
+.btn-info {
+  border-radius: 9px;
+  background: #721cff;
+  color: var(--white);
+  border: 1px solid #721cff;
+  padding: 10px 45px;
+}
 /* Header */
 .header {
   margin-bottom: -123px;
@@ -116,7 +122,7 @@ a:active {
 }
 img {
   object-fit: cover;
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 /* hero */
@@ -163,14 +169,12 @@ img {
 /* How it works */
 
 .how-works {
-  /* background: linear-gradient(0deg, rgba(35, 40, 59, 1), rgba(35, 40, 59, 1)),
-    url("../image/how-workd-bg.png") center center no-repeat; */
-  background: url("../image/how-workd-bg.png") center center no-repeat;
+  background: url("../image/how-workd-bg.png") center no-repeat;
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
-  background-color: black;
+  background-color: #1e1d2a;
 }
 
 .how-work-icons {
@@ -195,7 +199,7 @@ img {
 .how-works .btn-outline-secondary {
   padding: 3px 3px 3px 30px;
 }
-/*  feature table */
+/*  feature table  section*/
 .features-table {
   padding-top: 45px;
   padding-bottom: 60px;
@@ -216,6 +220,16 @@ img {
   height: 27px;
   margin-left: 30px;
 }
+.features-table .table {
+  border: 1px solid #fff;
+}
+.features-table .table th {
+  color: var(--white);
+}
+.features-table .table h5,
+p {
+  color: var(--white) !important;
+}
 .table-icon {
   width: 55px;
   height: 55px;
@@ -225,4 +239,135 @@ img {
 }
 .table-icon-header {
   width: 150px;
+  background: #040343 !important;
+  color: var(--white);
+}
+.features-table .first-header {
+  background: #0d0909;
+  padding-left: 15px;
+}
+.features-table .table .table-heading {
+  padding: 25px 0;
+  background: #23283b;
+  padding-left: 15px;
+}
+.table-heading h4 {
+  font-size: 38px;
+}
+.features-table .table .table-text {
+  background: #040343;
+  color: var(--white);
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0;
+}
+.features-table .table .table-text div {
+  /* width: 100px; */
+  /* margin: 25px; */
+}
+.table-heading .sub-heading {
+  font-size: 15px;
+  /* padding: 30px 15px; */
+}
+.features-table .table tbody tr:nth-child(1) .table-heading {
+  padding: 40px 15px;
+}
+.features-table .table tbody tr:nth-child(1) .table-text {
+  padding: 40px 15px;
+}
+.table-check-icon {
+  width: 52px;
+  height: 50px;
+}
+.sub-heading-small {
+  font-size: 10px;
+}
+/* customer review */
+.customer-review {
+  padding-bottom: 60px;
+  position: relative;
+  background-color: #23283b;
+}
+.customer-container {
+  margin-top: 60px;
+}
+
+.customer-images img {
+  width: 227px;
+  height: 100%;
+  border-radius: 6px;
+}
+
+/* Booking */
+.booking {
+  padding-bottom: 30px;
+  position: relative;
+  background-color: #23283b;
+}
+.booking .row:nth-child(1) h6 {
+  font-weight: 300;
+}
+.booking-form .form-control {
+  border-radius: 8px;
+  border: 1.5px solid #fff;
+  /* background: #23283b;
+  color: rgba(255, 255, 255, 0.9) !important; */
+  background: rgba(245, 244, 255, 0.2);
+  color: rgba(255, 255, 255, 0.3);
+}
+.booking-list {
+  font-size: 14px;
+}
+/* Footer section */
+.footer {
+  background-color: #222229;
+  padding: 40px 0 20px 0;
+}
+.footer-item-text {
+  font-size: 10px;
+}
+.footer-item {
+  padding: 0 30px;
+}
+.footer-item img {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.footer .social-icons {
+  width: 80%;
+  height: 35px;
+}
+.footer .footer-subtitle {
+  font-size: 27px;
+}
+.footer ul {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+.footer ul li {
+  list-style-type: none;
+}
+.footer ul li a {
+  color: #fff;
+
+  font-family: Lato;
+  font-size: 14px;
+}
+.footer-info-icon {
+  width: 18px;
+  height: 25px;
+}
+.footer .info-text {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+.footer .information ul li {
+  margin-bottom: 15px;
+}
+.footer .subscribe .btn-info {
+  width: 100%;
 }
