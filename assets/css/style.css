@@ -111,7 +111,7 @@ a:active {
   --bs-navbar-padding-y: 0rem;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: var(--white);
 }
 img {
@@ -414,6 +414,7 @@ p {
     top: 100%;
     left: 0;
     z-index: 10;
+    background: rgba(217, 217, 217, 0.65);
   }
   .nav-btn-group {
     display: none !important;
