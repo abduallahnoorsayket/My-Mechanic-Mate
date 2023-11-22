@@ -310,7 +310,18 @@ p {
   height: 100%;
   border-radius: 6px;
 }
-
+.customer-images .image-container {
+  position: relative;
+}
+.customer-images .image-border {
+  position: absolute;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  width: 227px;
+  height: 100%;
+  top: 0;
+  transform: rotate(7.15deg);
+}
 /* Booking */
 .booking {
   padding-bottom: 30px;
@@ -416,7 +427,7 @@ p {
     align-items: center;
   }
 
-  .customer-images img {
-    margin-bottom: 20px;
+  .customer-images .image-container {
+    margin-bottom: 30px;
   }
 }
