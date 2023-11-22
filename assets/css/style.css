@@ -125,7 +125,7 @@ img {
 .nav-item {
   padding: 0 15px;
 }
-/* hero */
+/* hero  section */
 .hero {
   background: linear-gradient(
       0deg,
@@ -149,17 +149,19 @@ img {
 }
 .hero-form .form-control {
   border-radius: 13px;
-  /* border: 1px solid #fff; */
   border: 1px solid rgba(255, 255, 255, 0.6);
-
   background: rgba(245, 244, 255, 0.17);
-
-  color: rgba(255, 255, 255, 0.3);
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  padding: 13px 10px 13px 40px;
+}
+.hero-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1; /* Firefox */
+  font-size: 12px;
 }
 .hero-form .row {
   margin: 0 10px;
@@ -167,7 +169,17 @@ img {
 .hero-text {
   width: 75%;
 }
+.hero-form .form-group {
+  position: relative;
+}
 
+.form-group .icon {
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  top: 22%;
+  left: 10px;
+}
 /* How it works */
 
 .how-works {
@@ -265,10 +277,7 @@ p {
   text-align: center;
   padding: 20px 0;
 }
-.features-table .table .table-text div {
-  /* width: 100px; */
-  /* margin: 25px; */
-}
+
 .table-heading .sub-heading {
   font-size: 15px;
   /* padding: 30px 15px; */
@@ -314,14 +323,23 @@ p {
 .booking-form .form-control {
   border-radius: 8px;
   border: 1.5px solid #fff;
-  /* background: #23283b;
-  color: rgba(255, 255, 255, 0.9) !important; */
-  background: rgba(245, 244, 255, 0.2);
-  color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  padding: 14px 10px 14px 50px;
 }
 .booking-list {
   font-size: 14px;
 }
+
+.booking-form .form-group {
+  position: relative;
+}
+
+.booking-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1; /* Firefox */
+  font-size: 21px;
+}
+
 /* Footer section */
 .footer {
   background-color: #222229;
